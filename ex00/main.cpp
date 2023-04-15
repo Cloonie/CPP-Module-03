@@ -14,4 +14,5 @@ int	main(void)
 	for (int i = 0; i < 10; i++)
 		obj.attack("MARK");
 	obj.takeDamage(1);
+	ClapTrap copy(test);
 }
